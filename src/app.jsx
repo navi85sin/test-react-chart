@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { fuelAPIData } from './api/fuel_api'
 
+
 import Chart from './components/charts';
 import Coalchart from './components/coal_chart';
 import Gaschart from './components/gas_chart';
 
 import './css/fuel.css';
+
 
 class appChart extends Component {
 
