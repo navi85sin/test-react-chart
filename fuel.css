@@ -1,0 +1,10 @@
+.charts li{
+ display: inline-block;
+ margin: 15px 0px;
+}
+.label{
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+}

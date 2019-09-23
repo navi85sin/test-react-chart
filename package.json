@@ -5,8 +5,6 @@
     "start": "webpack-dev-server --hot --progress --colors"
   },
   "dependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "recharts": "^1.7.1",
@@ -15,7 +13,6 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/helpers": "^7.5.5",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
@@ -35,7 +32,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "jest": {
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$",
+    "testRegex": "\\.(test|spec)\\.(j|t)sx?$",
     "transform": {
       "^.+\\.jsx?$": "babel-jest",
       "^.+\\.tsx?$": "ts-jest"
